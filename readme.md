@@ -16,7 +16,7 @@ desenvolvimento sem nenhuma biblioteca padrão (*freestanding environment*).
 * Automação (Toolchain): Script em Python que gerencia o fluxo completo de compilação cruzada (*cross-compilation*) e inicialização do emulador.
 * Ambiente de Testes: QEMU (Emulador de hardware x86 de 32 bits).
 
- Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter as ferramentas básicas instaladas no seu ambiente (preferencialmente Linux/WSL):
