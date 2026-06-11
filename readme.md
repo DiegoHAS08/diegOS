@@ -12,8 +12,10 @@ desenvolvimento sem nenhuma biblioteca padrão (*freestanding environment*).
 
 * Kernel: Escrito em C puro (sem `stdio.h`, `stdlib.h` ou qualquer facilidade de alto nível).
 * Bootloader & Inicialização: Escrito em Assembly NASM, configurado sob o padrão Multiboot para comunicação com o GRUB.
-* Linker Script: Configuração manual dos segmentos de memória (`.text`, `.rodata`, `.data`, `.bss`) mapeados a partir de 1MB na RAM.
-* Automação (Toolchain): Script em Python que gerencia o fluxo completo de compilação cruzada (*cross-compilation*) e inicialização do emulador.
+* Linker Script: Configuração manual dos segmentos de memória (`.text`, `.rodata`, `.data`, `.bss`) mapeados a partir
+de 1MB na RAM.
+* Automação (Toolchain): Script em Python que gerencia o fluxo completo de compilação cruzada (*cross-compilation*) e
+inicialização do emulador.
 * Ambiente de Testes: QEMU (Emulador de hardware x86 de 32 bits).
 
 ## Como Executar o Projeto
